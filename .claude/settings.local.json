@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat ~/.claude/settings.json 2>/dev/null || echo \"{}\")",
+      "mcp__Figma__get_metadata",
+      "mcp__Figma__get_screenshot",
+      "mcp__Figma__get_design_context",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(mv /Users/VALLAVE/RealDummy/piedmont-app/* /Users/VALLAVE/RealDummy/)",
+      "Bash(mv /Users/VALLAVE/RealDummy/piedmont-app/.* /Users/VALLAVE/RealDummy/)",
+      "Bash(npx tailwindcss *)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git branch *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
